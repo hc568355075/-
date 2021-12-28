@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+div{
+    display: block;
+}
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    background-color: #fff;
+    min-width: 1226px
+}
+.header .site-topbar{
+    width: 100%;
+    height: 40px;
+    background: #333;
+    position: relative;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.site-topbar .container{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container a{
+    color: #b0b0b0;
+    display: inline-block;
+}
+.container a:hover{
+    color: #fff;
+}
+.site-topbar .topbar-left .sep{
+    margin: 0 .3em;
+    color: #424242;
+    
+}
+.site-topbar .topbar-left{
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.site-topbar .topbar-cart{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    background: #424242;
+    margin-left: 15px;
+}
+.site-topbar .topbar-cart a:hover{
+    background-color: #fff;
+    color: #ff6700;
+}
+.topbar-cart .cart-mini{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background: #424242;
+}
+.topbar-cart  .cart-mini em{
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 4px;
+}
+.site-topbar .topbar-info{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.site-topbar .topbar-info a{
+    float: left;
+}
+.site-topbar .topbar-info .link{
+    padding: 0 5px;
+}
+.site-topbar .topbar-info .sep{
+    color: #424242;
+    margin: 0;
+    float: left;
+}
+.site-topbar .topbar-info .message{
+    padding: 0 10px;
+}
+.site-herder .container{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.site-herder .header-logo{
+    float: left;
+    width: 62px;
+    height: 56px;
+    margin-top: 22px;
+}
+.site-herder .logo{
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    background-image: url(https://s02.mifile.cn/assets/static/image/logo-mi2.png);
+    background-repeat: no-repeat;
+    background-size: 56px;
+}
+.site-herder .header-nav{
+    float: left;
+    width: 850px;
+    position: relative;
+}
+.site-herder .nav-list{
+    width: 1100px;
+    height: 88px;
+    font-size: 16px;
+    padding: 12px 0 0 30px;
+}
+.site-herder .header-nav li{
+    float: left;
+}
+.site-herder .header-nav a{
+    color: #333;
+}
+.site-herder .nav-category{
+    float: left;
+    padding-right: 15px;
+    width: 127px;
+    height: 88px;
+}
+.site-herder .nav-list a:hover{
+    color: #ff6700;
+}
+.site-herder .nav-item{
+    padding: 26px 10px 38px 10px;
+}
+.site-herder .header-search{
+    float: right;
+    width: 296px;
+    height: 50px;
+    position: relative;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+.site-herder .header-search .search-text{
+    width: 223px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    box-sizing: content-box;
+    position: absolute;
+}
+
+.site-herder .header-search .search-btn{
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+}
+.site-herder .header-search .search-text:hover{
+    border-color: #ff6700;
+}
+.site-herder .header-search .search-btn:hover{
+    background: #ff6700;
+}
